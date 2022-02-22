@@ -21,4 +21,4 @@ class Test_wrongLogin:
     @allure.story("3==3")
     def test_C001003(self):
         print('\n用例C001003')
-        assert 3 == 3
+        assert 3 == 2
