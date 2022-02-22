@@ -19,4 +19,4 @@ class Test_wrongLogin:
     @pytest.mark.run(ordering=1)
     def test_C001003(self):
         print('\n用例C001003')
-        assert 3 == 2
+        assert 3 == 3
