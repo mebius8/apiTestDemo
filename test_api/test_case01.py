@@ -9,6 +9,8 @@ import allure
 class Test_wrongLogin:
 
     @allure.story("1==1")
+    @pytest.mark.run(ordering=1)
+    @pytest.mark.flaky(reruns=2, reruns_delay=10)  # 装饰器定义失败重跑次数
     def test_C001001(self):
         print('\n用例C001001')
         assert 1 == 1
